@@ -17,7 +17,7 @@ print("Loaded model from disk")
 '''
 loaded_model.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
 
-img = cv2.imread("/media/parth/06C20E27C20E1B95/machine_leaning/sentdex/deepLearning/dogs_cates/test/21.jpg")
+img = cv2.imread("./dogs_cates/test/21.jpg")
 img = cv2.resize(img, (50,50))
 print(img.shape)
 img = img.reshape(1, 50, 50, 3)
