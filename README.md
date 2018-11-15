@@ -17,7 +17,7 @@ Keras==2.0.6  -: https://keras.io/
 
 Untitled.ipynb contains hello world program in keras(simpler example)
 
-firsly download data-set from :- https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
+firstly download data-set from :- https://www.kaggle.com/c/dogs-vs-cats-redux-kernels-edition/data
 
 python3 pre.py responsible for preprocessing of data-set
 
